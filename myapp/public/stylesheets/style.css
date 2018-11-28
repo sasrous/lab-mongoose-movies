@@ -1,8 +1,208 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.navbar {
+	padding-top: 30px;
 }
 
-a {
-  color: #00B7FF;
+.h4-fontstyle {
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+.text-muted {
+	padding-left: 10px;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item {
+	padding-left: 35px;
+}
+
+.nav-link {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.w-100 {
+	align-content: center;
+	width: auto;
+}
+
+.hello {
+	text-align: center;
+}
+
+.hello-h2 {
+	font-size: 36px;
+	font-family: 'Heebo', sans-serif;
+}
+
+.hello-h5 {
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: #606060;
+}
+
+.description {
+	position: absolute;
+	bottom: 150px;
+	right: 13%;
+	text-align: right;
+}
+
+@media (max-width: 900px) {
+	.description {
+		display: block;
+		width: 100%;
+		text-align: center;
+		position: static;
+	}
+}
+
+.h2-slider {
+	font-size: 48px;
+	color: #303030;
+	font-family: 'Heebo', sans-serif;
+}
+
+.h3-slider {
+	font-size: 16px;
+	color: #808080;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+	background-color: #ffffff;
+	color: #303030;
+	font-family: 'Montserrat', sans-serif;
+	border-color: #303030;
+	border-radius: 50px 50px;
+	padding: 5px 30px;
+}
+
+.btn:hover {
+	background-color: #505050;
+	color: #f4f4f4;
+	font-family: 'Montserrat', sans-serif;
+	border-color: #f4f4f4;
+	border-radius: 50px 50px;
+	padding: 5px 30px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	height: 100px;
+	width: 100px;
+	outline: black;
+	background-size: 100%, 100%;
+	background-image: none;
+}
+
+.carousel-control-next-icon:after {
+	content: '>';
+	font-family: 'Varela Round', sans-serif;
+	font-size: 55px;
+	color: #909090;
+}
+
+.carousel-control-prev-icon:after {
+	content: '<';
+	font-family: 'Varela Round', sans-serif;
+	font-size: 55px;
+	color: #909090;
+}
+
+.gallery-block {
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+
+.gallery-block .heading {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.gallery-block .heading h2 {
+	font-family: 'Heebo', sans-serif;
+	padding-bottom: 30px;
+}
+
+.gallery-block.cards-gallery h6 {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+.gallery-block.cards-gallery .card {
+	transition: 0.4s ease;
+}
+
+.gallery-block.cards-gallery .card-body {
+	text-align: center;
+}
+
+.gallery-block.cards-gallery .card-body p {
+	font-size: 14px;
+}
+
+.gallery-block.cards-gallery a {
+	color: #303030;
+}
+
+.gallery-block.cards-gallery a:hover {
+	text-decoration: none;
+}
+
+.gallery-block.cards-gallery .card {
+	margin-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+	.gallery-block .transform-on-hover:hover {
+		transform: scale(1.2);
+	}
+}
+
+.h2-title-work {
+	font-size: 36px;
+	font-family: 'Heebo', sans-serif;
+}
+
+.centered-text {
+	padding-top: 210px;
+	text-align: right;
+	color: #303030;
+}
+
+.h2-title-about {
+	font-family: 'Heebo', sans-serif;
+}
+
+.h5-text-about {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	padding-top: 40px;
+	padding-right: 80px;
+}
+
+.image-position {
+	padding-top: 150px;
+}
+
+.media-icons {
+	padding-top: 300px;
+	padding-left: 280px;
+}
+
+.img-media {
+	padding: 10px;
+}
+
+.follow {
+	padding-left: 337px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+.h5-project {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	padding: 20px 100px 0px 100px;
 }
